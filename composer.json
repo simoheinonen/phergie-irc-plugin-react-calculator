@@ -2,6 +2,6 @@
     "require": {
         "phergie/phergie-irc-client-react": "^3.2",
         "phergie/phergie-irc-plugin-react-command": "^2.0",
-        "chriskonnertz/string-calc": "^1.0"
+        "chriskonnertz/string-calc": "^1.0.2"
     }
 }
