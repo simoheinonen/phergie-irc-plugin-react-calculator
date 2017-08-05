@@ -1,6 +1,6 @@
 <?php
 
-namespace Phergie\Irc\Plugin\React\Calculator;
+namespace SimoHeinonen\Phergie\Plugin\Calculator;
 
 use Phergie\Irc\Bot\React\AbstractPlugin;
 use Phergie\Irc\Bot\React\EventQueue;
