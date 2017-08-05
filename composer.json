@@ -1,5 +1,5 @@
 {
-    "name": "phergie/phergie-irc-plugin-react-calculator",
+    "name": "simoheinonen/phergie-irc-plugin-react-calculator",
     "type": "library",
     "description": "Phergie IRC bot plugin to calculate",
     "keywords": ["irc","phergie"],
