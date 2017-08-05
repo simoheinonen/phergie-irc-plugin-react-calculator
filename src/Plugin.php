@@ -19,7 +19,7 @@ class Plugin extends AbstractPlugin
 
     public function getSubscribedEvents()
     {
-        return ['command.laske' => 'calculate'];
+        return ['command.calc' => 'calculate'];
     }
 
     public function calculate(Event $event, EventQueue $queue)
