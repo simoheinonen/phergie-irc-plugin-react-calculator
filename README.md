@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-composer require simoheinonen/phergie-irc-plugin-react-calculator:dev-master
+composer require simoheinonen/phergie-irc-plugin-react-calculator
 ```
 
 ## Configuration
