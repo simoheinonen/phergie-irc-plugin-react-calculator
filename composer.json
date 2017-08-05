@@ -1,5 +1,4 @@
 {
-
     "name": "phergie/phergie-irc-plugin-react-calculator",
     "type": "library",
     "description": "Phergie IRC bot plugin to calculate",
@@ -9,7 +8,7 @@
     "authors": [
         {
             "name": "Simo Heinonen",
-            "homepage": "https://github.com/simoheinonen",
+            "homepage": "https://github.com/simoheinonen"
         }
     ],
     "require": {
