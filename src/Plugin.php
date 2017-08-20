@@ -24,8 +24,9 @@ class Plugin extends AbstractPlugin
 
     public function calculate(Event $event, EventQueue $queue)
     {
+        $string = str_replace(',', '.', implode(' ', $event->getCustomParams()));
         try {
-            $msg = $this->calculator->calculate(implode(' ', $event->getCustomParams())) . ' '; //  space because there's something wrong with sending only "0" as a message
+            $msg = $this->calculator->calculate($string) . ' '; //  space because there's something wrong with sending only "0" as a message
         } catch (\Exception $ex) {
             $msg = 'Error';
         }
